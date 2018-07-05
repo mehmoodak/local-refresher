@@ -1,0 +1,16 @@
+{
+  "name": "local_refresher",
+  "version": "1.0.0",
+  "description": "This is just a wrapper which is use to refresh any server if the file changes",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehmood Ahmad Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1"
+  }
+}
