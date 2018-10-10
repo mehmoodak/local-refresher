@@ -1,12 +1,12 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 
-var proxy = "localhost:8088";
-var src = "k2_web";
+var server_address = "server_address"; //localhost:8080
+var src = "folder_name";
 
 gulp.task('browser-sync', function () {
     browserSync.init({
-        proxy: proxy
+        proxy: server_address
     });
 });
 
